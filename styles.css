@@ -1,0 +1,211 @@
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+#title.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    margin-left: 0px;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.row {
+    padding-left: 16px;
+}
+
+.text {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Refactoring */
+.text,
+.testimonial-text,
+.pricing-text,
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature-box,
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer {
+    text-align: center;
+}
+
+.text,
+#features,
+.testimonial-text,
+.cta-text {
+    line-height: 1.5;
+}
+
+.pricing-text,
+.cta-text {
+    font-size: 2.5rem;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/*Download Button*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Phone Image */
+.phone-image {
+    width: 400px;
+    padding: 0 0 0 5%;
+    position: absolute;
+}
+
+.rotate-25 {
+    transform: rotate(25deg);
+}
+
+/* section-2 styling */
+.text-section2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.styling {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+.styling:hover {
+    color: black;
+}
+
+.head-1 {
+    color: #8f8f8f;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+/* Testimonials Sections */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+
+.image-style {
+    border-radius: 100%;
+    width: 10%;
+    margin-right: 3%;
+}
+
+em {
+    color: aliceblue;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    margin: 1%;
+    width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 6% 7%;
+}
+
+.card {
+    margin: 2%;
+}
+
+.pricing-text {}
+
+.pricing-para {
+    padding-bottom: 35px;
+}
+
+/* Call to Action section */
+#cta {
+    background-color: #ff4c68;
+    padding: 2% 15% 0% 15%;
+}
+
+.cta-text {
+    color: #fff;
+    padding-bottom: 3%;
+}
+
+.download-icon {
+    margin: 2% 3% 0 0;
+}
+
+/* Footer */
+#footer {
+    background-color: #fff;
+    padding: 5% 10%;
+}
+
+.icon-footer {
+    padding: 15px;
+}
+
+.icon-footer:hover {
+    color: #ef8172;
+}
+
+.cta-para {
+    color: #8f8f8f;
+}
+
+/* Media Breakpoints */
+@media(max-width:1135px) {
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
